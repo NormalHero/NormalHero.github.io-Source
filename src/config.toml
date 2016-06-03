@@ -1,7 +1,9 @@
 # Site settings
-baseurl = "http://NormalHero.github.io"
+baseurl = "http://NormalHero.github.io/"
 contentdir = "content"
 publishdir = "public"
+layoutdir = "layouts"
+staticdir = "static"
 languageCode = "en-us"
 title = "David Truong"
 theme = "hugo-agency-theme"
