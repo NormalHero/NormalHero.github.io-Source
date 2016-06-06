@@ -29,3 +29,7 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+function SentEmailAlert() {
+    alert('Your message has been sent. Thank you!');
+}

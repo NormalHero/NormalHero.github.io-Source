@@ -1,9 +1,10 @@
 # Site settings
 baseurl = "http://NormalHero.github.io/"
-contentdir = "content"
-publishdir = "public"
-layoutdir = "layouts"
-staticdir = "static"
+#contentdir = "content"
+#publishdir = "public"
+#layoutdir = "layouts"
+#staticdir = "static"
+#datadir = "data"
 languageCode = "en-us"
 title = "David Truong"
 theme = "hugo-agency-theme"
@@ -35,7 +36,7 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "dtruong510805@gmail.com"
+	email = "david.truong510@gmail.com"
 
     # Link custom assets relative to /statuc
     custom_css = []
@@ -63,7 +64,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = "http://linkedin.com"
+        url = "https://www.linkedin.com/in/david-truong-15964ab6"
         name = "LinkedIn"
         weight = 10
 
@@ -72,33 +73,37 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		title = "Welcome To My Website"
+		subtitle = "Take a Look Around"
+		buttonText = "Show Me"
 
 
 	# Services section
 	[params.services]
         enable = true
 		title = "Skills"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Every profession has its tools"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.services.row.list]]
                 icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "Programming Languages"
+                description = "Proficient: Java, C++"
+                description2 = "Famililar: HTML, CSS, Bootstrap, Javascript"
+
+           	[[params.services.row.list]]
+                icon = "fa-leaf"
+                title = "Frameworks / APIs"
+                description = "JPA/Hibernate, SOAP"
+               	description2 = "Spring MVC"
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-database"
+                title = "Databases and Tools"
+                description = "Oracle, MS SQL"
+                description2 = "Junit, Maven, Jenkins, Tomcat, RabbitMQ, SVN, Git"
+
 
 	# Portfolio section
 	[params.portfolio]
@@ -108,48 +113,48 @@ googleAnalytics = ""
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "A few of my personal and professional works"
 
-		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
+	[params.portfolio.modal]
+        client = "Team"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
 
 
     # About section
 	[params.about]
         enable = true
 		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
+		subtitle = "Bay Area native, software engineer, amateur cook, and aspiring entrepeneur"
+		endpoint = "Looking<br>for<br>more!"
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 		[[params.about.events]]
-			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "about1.png"
+			date = ""
+			title = "About Me"
+			description = "I am a Bay Area native working as a software engineer in the area. I attended the University of California Santa Barbara and came back to the Bay Area after graduating. In my spare time I enjoy cooking, going to the gym, and taking long walks on the beach."
 
 		[[params.about.events]]
-			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "about2.png"
+			date = "2007 - 2011"
+			title = "Hayward High School"
+			description = "I attended Hayward High School and was first introduced to programming in AP Computer Science. I enjoyed the problem solving, non-linear solutions, and the sheer amount of different technologies that I could use to write code with. I graduated top 5% of my class and decided to pursue a degree in computer science."
 
 		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "about3.png"
+			date = "2011 - 2015"
+			title = "University of California Santa Barbara"
+			description = "I attended UCSB for a Bachelors degree in CS. I gained a great deal of knowledge and met wonderful friends along the way. I had the chance to take interesting classes such as artifical intelligence, crytographic engineering, and security systems. After graduating, I moved back to the Bay Area to work as a software engineer."
 
 		[[params.about.events]]
-			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "about4.png"
+			date = "2015 - 2016"
+			title = "ETrade"
+			description = "I began working as a software engineer at ETrade. Most of my work is on the backend creating webservices, writing SQL database scripts, and automating daily tasks with batch jobs. My other responsibilities include writing unit tests, resolving defects, and participating in project system designs."
 
 
 	# Team section
@@ -216,9 +221,9 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-        enable = false
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+        enable = true
+		title = "Contact Me"
+		subtitle  = "Feel free to send me a message"
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
@@ -254,12 +259,12 @@ googleAnalytics = ""
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
-			link = "#"
+			link = "https://www.linkedin.com/in/david-truong-15964ab6"
 
 		[[params.footer.quicklinks]]
 			text = "Created using Hugo"
 			link = "https://gohugo.io/"
 
 		[[params.footer.quicklinks]]
-			text = "Hosted on github.io"
-			link = "https://github.com/NormalHero/NormalHero.github.io"
+			text = "Hosted on Github"
+			link = "https://github.com/NormalHero/NormalHero.github.io-Source"

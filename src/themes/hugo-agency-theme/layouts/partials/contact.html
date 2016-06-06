@@ -9,7 +9,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+                <form action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate autocomplete="off">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -31,10 +31,12 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                        <input type="hidden" name="_next" value="http://normalhero.github.io" />
+                        <input type="text" name="_gotcha" style="display:none" />
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}</button>
+                            <button type="submit" class="btn btn-xl" onclick="SentEmailAlert()">{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}</button>
                         </div>
                     </div>
                 </form>

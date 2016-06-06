@@ -1,0 +1,10 @@
+modalID: 5
+title: Audio Visualizer
+subtitle: Audio visualizations using Processing 3
+date: 2014-07-08
+img: processing.png
+preview: processingPreview.png
+client: Start Bootstrap
+clientLink: "#"
+category: Audio Processing
+description: As someone who loves music, I experimented with combining music with visualizations. The center ellipse expands and contracts in regards to high treble frequencies while the outer ellipse responds to lower bass frequencies. The Fast Fourier Transformation (FFT) is also used to create the waveform that spans the width of the visualizer. Using Processing 3 and the Minim library, this audio visualizer was made as a concept of how we can use technology, math, and science to visualize music.

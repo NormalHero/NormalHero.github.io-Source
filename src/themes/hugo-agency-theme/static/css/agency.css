@@ -61,7 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #e2e2e2;
 }
 
 .bg-darkest-gray {
@@ -328,6 +328,12 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h2.section-heading-smaller {
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-size: 35px;
 }
 
 section h3.section-subheading {

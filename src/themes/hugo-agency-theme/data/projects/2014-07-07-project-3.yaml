@@ -1,0 +1,10 @@
+modalID: 3
+title: EatHarmony
+subtitle: Helping you choose what to eat next 
+date: a
+img: eatHarmony3.png
+preview: eatHarmonyPreview2.png
+client: a
+clientLink: "#"
+category: Mobile Application
+description: A collaboration project with 3 other developers to create an Android app. EatHarmony presents users with an image of a type of food and the user can either "like" the food by swiping right or "skipping" the food by swiping left. If a user likes the food presented to them and they swipe right, they are given links to Yelp and various restaurants serving that type of food. Histories of their food choices and charts to easily see their choices are also presented to the users.

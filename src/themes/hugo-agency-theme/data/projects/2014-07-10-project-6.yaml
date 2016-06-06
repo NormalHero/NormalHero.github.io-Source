@@ -1,0 +1,10 @@
+modalID: 6
+title: Integer Factorization
+subtitle: Research on factorization methods used in modern day cryptographic systems
+date: 2014-07-10
+img: research.png
+preview: researchPreview.png
+client: Start Bootstrap
+clientLink: "#"
+category: Research
+description: This paper describes in detail modern factorization methods and their relation to popular cryptographic systems. The consequences of finding faster and cheaper factorization methods has devastating real world implications as the security of our personal emails, bank accounts, etc. depend on the inherent difficulty of factoring large semi-prime numbers. This paper explores the number theory and mathematical concepts used in common factorization methods and how prime factorization plays a key role in current cryptographic systems. <br><br> Read the rest of the paper [here](https://github.com/NormalHero/IntegerFactorizationResearch/blob/master/IntegerFactorization.pdf).
