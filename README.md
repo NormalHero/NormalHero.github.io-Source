@@ -9,6 +9,6 @@ hugo server - Local server localhost:1313
 src/public: submodule to ThreeTwoFive.github.io Repository
 
 To Deploy:
-> hugo
-> cd public
-> (add, commit, push)
+hugo
+cd public
+(add, commit, push)
