@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://NormalHero.github.io/"
+baseurl = "http://ThreeTwoFive.github.io/"
 #contentdir = "content"
 #publishdir = "public"
 #layoutdir = "layouts"
@@ -89,20 +89,38 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-laptop"
                 title = "Programming Languages"
-                description = "Proficient: Java, C++"
-                description2 = "Famililar: HTML, CSS, Bootstrap, Javascript"
+                description = "Proficient: Java, C++, Python"
+                description2 = "Famililar: Scala, HTML, CSS, Javascript"
 
            	[[params.services.row.list]]
                 icon = "fa-leaf"
-                title = "Frameworks / APIs"
-                description = "JPA/Hibernate, SOAP"
-               	description2 = "Spring MVC"
+                title = "Frameworks"
+                description = "JPA/Hibernate, Spring, Spark, Hadoop"
+               	description2 = "JUnit, Maven"
 
             [[params.services.row.list]]
                 icon = "fa-database"
-                title = "Databases and Tools"
+                title = "Databases/Data Warehouse"
                 description = "Oracle, MS SQL"
-                description2 = "Junit, Maven, Jenkins, Tomcat, RabbitMQ, SVN, Git"
+                description2 = "Redshift"
+
+            [[params.services.row.list]]
+                icon = "fa-cog"
+                title = "DevOps"
+				description = "Jenkins, Tomcat, Docker"
+				description2 = "RabbitMQ, Qubole"
+
+			[[params.services.row.list]]
+				icon = "fa-cloud"
+                title = "AWS Cloud"
+                description = "S3, Lambda, Redshift, Spectrum"
+				description2 = "IAM, SNS, Cloudwatch"
+
+			[[params.services.row.list]]
+				icon = "fa-trello"
+                title = "SDLC Management Tools"
+                description = "Jira, Confluence, HP ALM"
+				description2 = "Kibbana, Qlikview"
 
 
 	# Portfolio section
@@ -156,7 +174,12 @@ googleAnalytics = ""
 			title = "ETrade"
 			description = "I began working as a software engineer at ETrade. Most of my work is on the backend creating webservices, writing SQL database scripts, and automating daily tasks with batch jobs. My other responsibilities include writing unit tests, resolving defects, and participating in project system designs."
 
-
+		[[params.about.events]]
+			img = "about5.jpg"
+			date = "2017 - Current"
+			title = "Expedia"
+			description = "Looking for the next best opportunity, I packed up my things and moved to Washington, a place I've only once visited before, to work as a Big Data Engineer at Expedia."
+	
 	# Team section
 	[params.team]
         enable = false

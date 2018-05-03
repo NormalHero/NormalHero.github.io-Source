@@ -1,4 +1,7 @@
+[submodule "src/ThreeTwoFive.github.io"]
+	path = src/ThreeTwoFive.github.io
+	url = https://github.com/ThreeTwoFive/ThreeTwoFive.github.io.git
 [submodule "src/public"]
 	path = src/public
-	url = git@github.com:ThreeTwoFive/ThreeTwoFive.github.io.git
+	url = https://github.com/ThreeTwoFive/ThreeTwoFive.github.io.git
 	branch = master
