@@ -1,5 +1,13 @@
 # ThreeTwoFive.github.io-Source
 
+After cloning, run
+
+git submodule init
+git submodule update
+
+in the public folder to pull submodule
+
+
 Hugo generate website
 
 Hugo Commands:
