@@ -1,10 +1,10 @@
 modalID: 1
-title: ETrade Account Activation
-subtitle: ETrade's Stock Plan account activation process 
+title: Expedia Pricing
+subtitle: Expedia's Dynamic Pricing Adjustments
 date: a
-img: rtaa.png
-preview: rtaaPreview.png
+img: expedia.PNG
+preview: expediaPreview.PNG
 client: a
 clientLink: "#"
 category: Web Application
-description: ETrade's complete redesign of their account activation system that was over a decade old. Old C Tuxedo webservices were migrated to our new in-house Java webservices framework. New batch jobs were created to take care of picking up new customer account activations requests periodically. The redesign created a more fluid and intuitive process for the customers while at the same time updating our codebase to a newer tech stack. 
+description: Expedia is able to adjust the pricing of it's offerings in real time. Pricing adjustments are done through a machine learning platform fueld by terabytes of processed data. By providing the data to the data scientists and ML platform, the multi-item trip team was able to increase conversion rates and increase revenue.

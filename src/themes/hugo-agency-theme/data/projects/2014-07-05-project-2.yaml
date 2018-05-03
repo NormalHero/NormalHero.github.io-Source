@@ -1,0 +1,10 @@
+modalID: 2
+title: ETrade Account Activation
+subtitle: ETrade's Stock Plan account activation process 
+date: a
+img: rtaa.png
+preview: rtaaPreview.png
+client: a
+clientLink: "#"
+category: Web Application
+description: ETrade's complete redesign of their account activation system that was over a decade old. Old C Tuxedo webservices were migrated to our new in-house Java webservices framework. New batch jobs were created to take care of picking up new customer account activations requests periodically. The redesign created a more fluid and intuitive process for the customers while at the same time updating our codebase to a newer tech stack. 
